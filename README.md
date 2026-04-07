@@ -1,6 +1,3 @@
-*Thinking...*
-
-> The user wants a complete README file in a single code block that they can copy and paste directly.
 
 ```markdown
 # European Bakery Sales Analysis — Data Visualisation Portfolio
