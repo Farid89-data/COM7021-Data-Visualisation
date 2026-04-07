@@ -40,7 +40,6 @@ print(f"\nData Types:\n{df.dtypes}")
 print(f"\nMissing Values:\n{df.isnull().sum()}")
 print(f"\nBasic Statistics:\n{df.describe()}")
 
-# --- Data Cleaning ---
 
 df['Confectionary'] = df['Confectionary'].str.strip()
 df['Confectionary'] = df['Confectionary'].replace({
@@ -344,7 +343,6 @@ print("\n" + "=" * 60)
 print("SECTION 5: INTERACTIVE VISUALISATIONS (Plotly)")
 print("=" * 60)
 
-# --- Figure 13: Interactive Scatter - Revenue vs Profit ---
 fig13 = px.scatter(
     df_clean, x='Revenue(£)', y='Profit(£)',
     color='City', size='Units Sold',
