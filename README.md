@@ -68,10 +68,11 @@ european-bakery-sales-analysis/
 │
 ├── README.md                              # This file
 ├── requirements.txt                       # Python dependencies
+├── bakery_cleaned.csv                 # Cleaned dataset for analysis
+├──  bakery_analysis_OUTPUT.txt         # Analysis output and summary
 │
 ├── 📊 Dataset/
-│   └── bakery_cleaned.csv                 # Cleaned dataset for analysis
-│
+│   └──Data Visualisation - COM7021 - [4566] Bakery- supporting document.xlsx
 ├── 🐍 Python Scripts/
 │   ├── bakery_analysis.py                 # Main analysis script
 │   └── dashboard_app.py                   # Interactive Dash application
@@ -98,8 +99,7 @@ european-bakery-sales-analysis/
 │   ├── dashboard_comprehensive.html       # Comprehensive dashboard
 │   └── fig19_interactive_box.html         # Interactive box plot
 │
-└── 📄 Documentation/
-    └── bakery_analysis_OUTPUT.txt         # Analysis output and summary
+
 ```
 
 ## 📊 Dataset
