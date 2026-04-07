@@ -67,7 +67,7 @@ This project demonstrates advanced data visualisation techniques through analysi
 .
 ├── README.md                    # This file
 ├── bakery_cleaned.csv           # Cleaned dataset
-├── static_visualisations.py     # Static chart generation script
+├── bakery_analysis.py           # Static chart generation script
 ├── dashboard_app.py             # Interactive Dash application
 ├── report.pdf                   # Detailed analysis report
 └── requirements.txt             # Python dependencies
@@ -137,7 +137,7 @@ The dataset contains European bakery sales records with the following attributes
 Generate 6 static charts and save them as image files:
 
 ```bash
-python static_visualisations.py
+python bakery_analysis.py
 ```
 
 **Output:** PNG files saved in the project directory for the following visualisations:
