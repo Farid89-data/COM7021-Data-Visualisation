@@ -41,6 +41,11 @@ This project demonstrates advanced data visualisation techniques through analysi
 - Revenue-to-profit relationship exploration
 - Temporal trends and seasonality patterns
 
+### Dashboard:
+- Microsoft Power BI:
+https://app.powerbi.com/groups/me/reports/6b6be75f-ca63-4cc3-9a44-c58b600e9e99?pbi_source=desktop
+- Tableau:
+
 ---
 
 ## ✨ Features
