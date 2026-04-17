@@ -46,12 +46,12 @@ This project demonstrates advanced data visualisation techniques through analysi
 ## ✨ Features
 
 ### Static Visualisations
-- **Profit by City** — Horizontal bar chart for easy comparison
-- **Profit by Confectionery** — Product category performance analysis
-- **Yearly Profit Trends** — Temporal analysis with line charts
-- **Revenue vs Profit** — Scatter plot showing relationships
-- **Profit Margin Heatmap** — City × Product cross-tabulation
-- **Profit Treemap** — Hierarchical breakdown of sales data
+- **Profit by City**: Horizontal bar chart for easy comparison
+- **Profit by Confectionery**: Product category performance analysis
+- **Yearly Profit Trends**: Temporal analysis with line charts
+- **Revenue vs Profit**: Scatter plot showing relationships
+- **Profit Margin Heatmap**: City × Product cross-tabulation
+- **Profit Treemap**: Hierarchical breakdown of sales data
 
 ### Interactive Dashboard
 - 🎨 Real-time filtering and dynamic chart updates
