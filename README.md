@@ -130,7 +130,7 @@ The dataset contains European bakery sales records with the following attributes
 
 1. **Clone or download the repository**
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/Farid89-data/COM7021-Data-Visualisation.git)
    cd european-bakery-sales-analysis
    ```
 
