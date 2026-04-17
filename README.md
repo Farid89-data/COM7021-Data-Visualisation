@@ -64,16 +64,43 @@ This project demonstrates advanced data visualisation techniques through analysi
 ## 📁 Repository Structure
 
 ```
-.
-├── README.md                    # This file
-├── bakery_cleaned.csv           # Cleaned dataset
-├── static_visualisations.py     # Static chart generation script
-├── dashboard_app.py             # Interactive Dash application
-├── report.pdf                   # Detailed analysis report
-└── requirements.txt             # Python dependencies
-```
+european-bakery-sales-analysis/
+│
+├── README.md                              # This file
+├── requirements.txt                       # Python dependencies
+├── bakery_cleaned.csv                 # Cleaned dataset for analysis
+├──  bakery_analysis_OUTPUT.txt         # Analysis output and summary
+│
+├── 📊 Dataset/
+│   └──Data Visualisation - COM7021 - [4566] Bakery- supporting document.xlsx
+├── 🐍 Python Scripts/
+│   ├── bakery_analysis.py                 # Main analysis script
+│   └── dashboard_app.py                   # Interactive Dash application
+│
+├── 📈 Static Visualisations (PNG)/
+│   ├── fig1_profit_by_city.png            # Profit by city bar chart
+│   ├── fig2_revenue_cost_profit_city.png  # Revenue, cost, profit analysis
+│   ├── fig3_profit_by_confectionery.png   # Profit by product category
+│   ├── fig4_yearly_profitability.png      # Yearly trends analysis
+│   ├── fig5_heatmap_margin.png            # Profit margin heatmap
+│   ├── fig7_quarterly_trends.png          # Quarterly trends line chart
+│   ├── fig10_stacked_bar.png              # Stacked bar chart
+│   ├── fig11_correlation.png              # Correlation scatter plot
+│   ├── fig12_pairplot.png                 # Pairplot visualization
+│   └── fig14_bubble_city.png              # Bubble chart by city
+│
+├── 🎨 Interactive Visualisations (HTML)/
+│   ├── fig13_interactive_scatter.html     # Interactive scatter plot
+│   ├── fig14_bubble_city.html             # Interactive bubble chart
+│   ├── fig15_interactive_bar.html         # Interactive bar chart
+│   ├── fig16_treemap.html                 # Interactive treemap
+│   ├── fig17_sunburst.html                # Interactive sunburst chart
+│   ├── fig18_temporal.html                # Interactive temporal analysis
+│   ├── dashboard_comprehensive.html       # Comprehensive dashboard
+│   └── fig19_interactive_box.html         # Interactive box plot
+│
 
----
+```
 
 ## 📊 Dataset
 
@@ -137,7 +164,7 @@ The dataset contains European bakery sales records with the following attributes
 Generate 6 static charts and save them as image files:
 
 ```bash
-python static_visualisations.py
+python bakery_analysis.py
 ```
 
 **Output:** PNG files saved in the project directory for the following visualisations:

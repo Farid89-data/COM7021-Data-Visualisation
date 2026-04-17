@@ -5,6 +5,8 @@
 # Student ID:24154844
 # Run: python dashboard_app.py
 # Open: http://127.0.0.1:8050
+#pip install pandas plotly dash dash-bootstrap-components numpy
+#python dashboard_app.py
 # ============================================================
 
 import pandas as pd
@@ -22,17 +24,32 @@ confectioneries = sorted(df['Confectionary'].unique())
 years = sorted([int(y) for y in df['Year'].unique()])
 
 app = Dash(__name__)
-app.title = "European Bakery Sales Dashboard"
+app.title = "European Bakery Sales"
 
 app.layout = html.Div([
+    # ===== HEADER =====
     html.Div([
-        html.H1("European Bakery Sales Dashboard",
-                style={'textAlign': 'center', 'color': '#2c3e50',
-                       'marginBottom': '5px', 'fontSize': '28px'}),
-        html.P("COM7021 Data Visualisation | Interactive Analysis | Farid Negahbani | SID: 24154844",
-               style={'textAlign': 'center', 'color': '#7f8c8d', 'fontSize': '14px'})
-    ], style={'backgroundColor': '#ecf0f1', 'padding': '15px',
-              'borderRadius': '10px', 'marginBottom': '20px'}),
+        html.H1("European Bakery Sales",
+                style={'textAlign': 'center',
+                       'color': '#38bdf8',
+                       'marginBottom': '5px',
+                       'fontSize': '28px'}),
+
+        html.P([
+            "Arden University | COM7021 Data Visualisation | Interactive Analysis | ",
+            "Farid Negahbani | SID: 24154844",
+            html.Br(),
+            "5 Cities | 5 Confectioneries | 5 Years"
+        ],
+            style={'textAlign': 'center',
+                   'color': '#cbd5e1',
+                   'fontSize': '14px'})
+    ],
+        style={'backgroundColor': '#1e293b',
+               'padding': '15px',
+               'borderRadius': '10px',
+               'marginBottom': '20px'}
+    ),
 
     html.Div([
         html.Div([
