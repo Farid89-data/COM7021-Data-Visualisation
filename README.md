@@ -150,10 +150,6 @@ The dataset contains European bakery sales records with the following attributes
    pip install -r requirements.txt
    ```
 
-   Or install manually:
-   ```bash
-   pip install pandas matplotlib seaborn plotly dash
-   ```
 
 ---
 
