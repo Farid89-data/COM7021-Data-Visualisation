@@ -41,17 +41,22 @@ This project demonstrates advanced data visualisation techniques through analysi
 - Revenue-to-profit relationship exploration
 - Temporal trends and seasonality patterns
 
+### Dashboard:
+- Microsoft Power BI:
+https://app.powerbi.com/groups/me/reports/6b6be75f-ca63-4cc3-9a44-c58b600e9e99?pbi_source=desktop
+- Tableau:
+
 ---
 
 ## ✨ Features
 
 ### Static Visualisations
-- **Profit by City** — Horizontal bar chart for easy comparison
-- **Profit by Confectionery** — Product category performance analysis
-- **Yearly Profit Trends** — Temporal analysis with line charts
-- **Revenue vs Profit** — Scatter plot showing relationships
-- **Profit Margin Heatmap** — City × Product cross-tabulation
-- **Profit Treemap** — Hierarchical breakdown of sales data
+- **Profit by City**: Horizontal bar chart for easy comparison
+- **Profit by Confectionery**: Product category performance analysis
+- **Yearly Profit Trends**: Temporal analysis with line charts
+- **Revenue vs Profit**: Scatter plot showing relationships
+- **Profit Margin Heatmap**: City × Product cross-tabulation
+- **Profit Treemap**: Hierarchical breakdown of sales data
 
 ### Interactive Dashboard
 - 🎨 Real-time filtering and dynamic chart updates
@@ -130,7 +135,7 @@ The dataset contains European bakery sales records with the following attributes
 
 1. **Clone or download the repository**
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/Farid89-data/COM7021-Data-Visualisation.git)
    cd european-bakery-sales-analysis
    ```
 
@@ -150,10 +155,6 @@ The dataset contains European bakery sales records with the following attributes
    pip install -r requirements.txt
    ```
 
-   Or install manually:
-   ```bash
-   pip install pandas matplotlib seaborn plotly dash
-   ```
 
 ---
 
@@ -320,4 +321,4 @@ Supervisor: Dr. Ahmed Hassan
 ---
 
 **Last Updated:** April 2026  
-**Project Status:** Complete ✓
+
